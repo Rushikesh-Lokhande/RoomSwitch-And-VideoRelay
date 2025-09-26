@@ -1,7 +1,5 @@
-// src/API.js
-
-// Replace YOUR_API_KEY_HERE with your actual VideoSDK API key
-export const authToken = "eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJhcGlrZXkiOiIwNjdhMzJiYi1iZTQ0LTRhNDctOTQ2MC0wNmJjMWE4ZGNiOWMiLCJwZXJtaXNzaW9ucyI6WyJhbGxvd19qb2luIl0sImlhdCI6MTc1ODg2NjAxNCwiZXhwIjoxNzU5NDcwODE0fQ.WjQi2D-5wcnPUnkAveLoW60ck1lsWX9EtnVMm5_PCQ8";
+// Replace VideoSDK_Token with actual VideoSDK Token
+export const authToken = "VideoSDK_Token";
 
 // API call to create a meeting room
 export const createMeeting = async ({ token }) => {
@@ -34,3 +32,4 @@ export const generateRandomRoomId = () => {
   
   return segments.join('-');
 };
+

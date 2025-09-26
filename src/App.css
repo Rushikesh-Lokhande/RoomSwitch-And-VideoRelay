@@ -106,7 +106,7 @@
   align-items: center;
 }
 
-/* Room A Button (Green) */
+/* Room A Button  */
 .join-button.room-a {
   background-color: #4CAF50;
 }
@@ -115,7 +115,7 @@
   background-color: #45a049;
 }
 
-/* Room B Button (Blue) */
+/* Room B Button */
 .join-button.room-b {
   background-color: #2196F3;
 }
@@ -124,7 +124,7 @@
   background-color: #1976D2;
 }
 
-/* Room A View (Green theme) */
+/* Room A View */
 .room-view.a {
   background-color: #e8f5e8;
 }
@@ -133,7 +133,7 @@
   color: #2e7d32;
 }
 
-/* Room B View (Blue theme) */
+/* Room B View */
 .room-view.b {
   background-color: #e3f2fd;
 }
@@ -180,7 +180,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
-  transform: scaleX(-1); /* Mirror effect for local video */
+  transform: scaleX(-1); 
 }
 
 .no-video {
@@ -256,7 +256,7 @@
   height: 100%;
   object-fit: cover;
   border-radius: 8px;
-  transform: scaleX(-1); /* Mirror effect */
+  transform: scaleX(-1); 
 }
 
 
@@ -319,7 +319,7 @@
 
 /* Switch Button Styles for Room A */
 .switch-button.a {
-  background-color: #2196F3; /* Blue for switching to Room B */
+  background-color: #2196F3;
   color: white;
   padding: 12px 25px;
   font-size: 1.1rem;
@@ -336,7 +336,7 @@
 
 /* Switch Button Styles for Room B */
 .switch-button.b {
-  background-color: #4CAF50; /* Green for switching to Room A */
+  background-color: #4CAF50; 
   color: white;
   padding: 12px 25px;
   font-size: 1.1rem;

@@ -120,7 +120,7 @@ function MediaRelayModal({ isOpen, onClose, onRelay, roomType }) {
   );
 }
 
-// Forced Room A Video Component (Shows in Room B)
+// Room A Video Component (Shows in Room B)
 function ForcedRoomAVideo({ roomAId }) {
   const videoRef = useRef(null);
   const [videoStream, setVideoStream] = useState(null);
